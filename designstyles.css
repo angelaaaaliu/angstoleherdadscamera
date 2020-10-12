@@ -60,7 +60,7 @@ header img {
   height: auto;
 } */
 
-#parcel-designs, #runit-logo, #runit-prototype, #mentor-connect-prototype, #misc-imgs {
+#parcel-designs, #runit-logo, #runit-prototype, #mentor-connect-prototype, #misc-imgs, #angel-baby {
   margin: auto auto;
   text-align: center;
 }
@@ -113,10 +113,14 @@ header img {
   margin: 20px;
 }
 
+#angel-baby {
+  width: 60%;
+}
+
 footer {
   margin: auto auto;
   font-family: 'PT Sans', sans-serif;
-  margin-top: 20px;
+  margin-top: 40px;
   font-size: 17px;
   letter-spacing: 2.5px;
   margin-bottom: 100px;
