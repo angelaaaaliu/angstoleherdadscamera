@@ -7,7 +7,7 @@
  * and feel across the page with spacing and colors.
  */
 
-header img, #all-photos img {
+header img, #all-photos img, #design-banner {
   width: 70%;
 }
 
@@ -24,7 +24,7 @@ body, footer {
   font-family: 'PT Sans', sans-serif;
 }
 
-body, footer, header, #all-photos, #shoots {
+body, footer, header, #all-photos, #shoots, #design {
   text-align: center;
 }
 
@@ -34,11 +34,8 @@ h2, footer {
   letter-spacing: 2.5px;
 }
 
-#all-photos, #shoots {
+#all-photos, #shoots, #design {
   margin-bottom: 100px;
-}
-
-#all-photos {
   margin-top: 100px;
   position: relative;
 }
@@ -51,7 +48,15 @@ h2, footer {
   transform: translate(-50%, -50%);
 }
 
-#all-photos-banner:hover {
+#design-text {
+  width: 40%;
+  position: absolute;
+  top: 55%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+}
+
+#all-photos-banner:hover, #design-banner:hover {
   filter: brightness(60%);
 }
 
