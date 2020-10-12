@@ -1,0 +1,99 @@
+/*
+ * Name: Angela Liu
+ * Date: May 22, 2020
+ * Section: CSE 154 AL
+ *
+ * CSS page linked to all of my shoot HTML pages. This page keeps a consistent style
+ * and feel across the pages with spacing and colors.
+ */
+
+body {
+  margin: 0px;
+  font-family: 'PT Sans', sans-serif;
+}
+
+header, .photos, footer, .photos section p {
+  margin: auto auto;
+  text-align: center;
+}
+
+header img {
+  width: 100%;
+}
+
+#back {
+  margin: 100px;
+  margin-bottom: 0px;
+}
+
+#design-work {
+  margin: 110px;
+  margin-top: 0px;
+}
+
+#design-work h1 {
+  margin-bottom: 40px;
+  font-family: 'Racing Sans One', cursive;
+  letter-spacing: 1.5px;
+  font-size: 50px;
+  color: rgb(207, 207, 207);
+  -webkit-text-stroke: 0.15px rgb(87, 86, 86);
+}
+
+.desc {
+  letter-spacing: 2.5px;
+  color: rgb(87, 86, 86);
+  font-style: italic;
+}
+
+/* .parcel-design {
+  float: left;
+  width: 300px;
+}
+
+.parcel-design img {
+  width: 100%;
+  height: auto;
+} */
+
+#parcel-designs {
+  margin: auto auto;
+  text-align: center;
+}
+
+.parcel-design {
+  width: 30%;
+  display: inline-block;
+  text-align: left;
+}
+
+.parcel-design p {
+  padding-left: 40px;
+}
+
+#parcel-designs img {
+  margin: 0px;
+  width: 100%;
+}
+
+.caption {
+  font-family: 'Libre Barcode 39 Extended Text', cursive;
+  font-style: normal;
+  font-size: 40px;
+  margin: 0px;
+}
+
+#back img {
+  width: 10%;
+}
+
+footer {
+  margin: auto auto;
+  font-family: 'PT Sans', sans-serif;
+  margin-top: 20px;
+  font-size: 17px;
+  letter-spacing: 2.5px;
+  margin-bottom: 100px;
+  display: block;
+  text-align: center;
+}
