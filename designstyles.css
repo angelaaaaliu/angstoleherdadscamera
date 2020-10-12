@@ -10,6 +10,9 @@
 body {
   margin: 0px;
   font-family: 'PT Sans', sans-serif;
+  letter-spacing: 2.5px;
+  color: rgb(87, 86, 86);
+  font-style: italic;
 }
 
 header, .photos, footer, .photos section p {
@@ -38,12 +41,13 @@ header img {
   font-size: 50px;
   color: rgb(207, 207, 207);
   -webkit-text-stroke: 0.15px rgb(87, 86, 86);
+  font-style: normal;
 }
 
 .desc {
-  letter-spacing: 2.5px;
+  /* letter-spacing: 2.5px;
   color: rgb(87, 86, 86);
-  font-style: italic;
+  font-style: italic; */
 }
 
 /* .parcel-design {
@@ -56,7 +60,7 @@ header img {
   height: auto;
 } */
 
-#parcel-designs {
+#parcel-designs, #runit-logo, #runit-prototype, #mentor-connect-prototype, #misc-imgs {
   margin: auto auto;
   text-align: center;
 }
@@ -77,14 +81,36 @@ header img {
 }
 
 .caption {
-  font-family: 'Libre Barcode 39 Extended Text', cursive;
+  letter-spacing: 2.5px;
+  color: rgb(87, 86, 86);
   font-style: normal;
-  font-size: 40px;
+  font-size: 20px;
   margin: 0px;
+  margin-bottom: 20px;
 }
 
 #back img {
   width: 10%;
+}
+
+#runit-logo img {
+  width: 75%;
+}
+
+#runit-prototype img {
+  width: 17%;
+  margin: 10px;
+  border: 1px black solid;
+}
+
+#mentor-connect img {
+  width: 40%;
+  margin: 20px;
+}
+
+#misc-imgs img {
+  width: 70%;
+  margin: 20px;
 }
 
 footer {
@@ -96,4 +122,5 @@ footer {
   margin-bottom: 100px;
   display: block;
   text-align: center;
+  font-style: normal;
 }
